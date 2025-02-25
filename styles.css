@@ -89,3 +89,7 @@ ul {
 .note {
     margin-right: 60px;
 }
+.list-style-none-indent-1 {
+    list-style-type: none;
+    padding-left: 16px;
+}
