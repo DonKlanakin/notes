@@ -98,7 +98,7 @@ ul {
     padding-bottom: 30px;
 }
 
-.center {
+.example-box {
     display: flex;
     background-color: #f1f1f1;
     justify-content: center;
