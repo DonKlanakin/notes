@@ -83,13 +83,23 @@ ul {
 .indent-2 {
     margin-left: 64px;
 }
+.list-style-none-indent-1 {
+    list-style-type: none;
+    padding-left: 16px;
+}
 .mb-1 {
     margin-bottom: 30px;
 }
 .note {
     margin-right: 60px;
 }
-.list-style-none-indent-1 {
-    list-style-type: none;
-    padding-left: 16px;
+.py-1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.center {
+    display: flex;
+    background-color: #f1f1f1;
+    justify-content: center;
 }
