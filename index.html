@@ -69,7 +69,7 @@
                     </div>
 
                     <div class="indent-2">
-                        <ul class="list-style-none-indent-1"">
+                        <ul class="list-style-none-indent-1">
                             <li>✔️<strong> &lt;header&gt;</strong> - Represents the page's header or a section's title.</li>
                             <li>✔️<strong> &lt;nav&gt;</strong> - Defines a navigation menu.</li>
                             <li>✔️<strong> &lt;article&gt;</strong> - Represents a standalone piece of content.</li>
@@ -101,7 +101,7 @@
                     </div>
                     <div class="indent-2">
                         <strong>🔹 Key Table Elements:</strong>
-                        <ul class="list-style-none-indent-1"">
+                        <ul class="list-style-none-indent-1">
                             <li>✔️<strong> &lt;table&gt;</strong> - Defines the table itself.</li>
                             <li>✔️<strong> &lt;tr&gt; (Table Row)</strong> - Represents a row.</li>
                             <li>✔️<strong> &lt;th&gt; (Table Header)</strong> - Creates bold, centered header cells.</li>
@@ -140,7 +140,7 @@
                     <br>
                     <div class="indent-2">
                         <strong>💡 Key Features:</strong>
-                        <ul class="list-style-none-indent-1"">
+                        <ul class="list-style-none-indent-1">
                             <li>✔️The &lt;th&gt; elements make the first row <strong>bold</strong> by default.</li>
                             <li>✔️The border=" 1" attribute adds a simple border for clarity.</li>
                             <li>✔️More advanced styling can be applied using <strong>CSS</strong>.</li>
@@ -180,7 +180,7 @@
                     </div>
                     <br>
                     <div class="indent-2">
-                        <ul class="list-style-none-indent-1"">
+                        <ul class="list-style-none-indent-1">
                             <li>✔️colspan="2" makes a cell span two columns.</li>
                             <li>✔️rowspan="2" (not shown here) would allow a cell to cover two rows.</li>
                         </ul>
@@ -221,6 +221,68 @@
                             </form>                    
                         </div>
                     </div>
+                    <br>
+                        <div class="indent-2">
+                            <strong>💡 Key Features:</strong>
+                            <ul class="list-style-none-indent-1">
+                                <li>✔️<strong>action="submit.php"</strong> - Determines where form data is sent (e.g., a backend script).</li>
+                                <li>✔️<strong>method="post"</strong> - Ensures secure data transmission<br>
+                                    <em style="padding-left: 20px;">(alternative: "get" for URL-based submission).</em></li>
+                                <li>✔️<strong>required</strong> - Ensures fields must be filled before submission.</li>
+                            </ul>
+                        </div>
+                </section>
+                <br>
+                <section style="margin-top: 26px;">
+                    <h2>🔹 Using Different Input Types</h2>
+                    <div class="indent-1">
+                        HTML forms support various input types:
+                    </div>
+                    <div class="indent-2">
+                        <ul class="list-style-none-indent-1">
+                            <li><strong>&lt;input type="text"&gt;</strong> - Creates a single-line text input field.</li>
+                            <li><strong>&lt;input type="password"&gt;</strong> - Creates a password input field.</li>
+                            <li><strong>&lt;input type="number"&gt;</strong> - Creates a numeric input field.</li>
+                            <li><strong>&lt;input type="email"&gt;</strong> - Creates an email input field.</li>
+                            <li><strong>&lt;input type="date"&gt;</strong> - Creates a date input field.</li>
+                            <li><strong>&lt;input type="radio"&gt;</strong> - Creates a radio button input field.</li>
+                            <li><strong>&lt;input type="checkbox"&gt;</strong> - Creates a checkbox input field.</li>
+                        </ul>
+                    </div>
+                    <br>
+                    <div class="indent-2">
+                        <p>
+                            <strong>💡 Example:</strong> Form elements.
+                        </p>
+                        <div class="example-box py-1" style="padding-left: 60px;">
+                            <form action="submit.php" method="post">
+                                <input type="text" placeholder="Enter your name">
+                                <br>    
+                                <input type="password" placeholder="Enter password">
+                                <br>
+                                <input type="number" placeholder="Enter age">
+                                <br>
+                                <input type="email" placeholder="Enter email">
+                                <br>
+                                <input type="date">
+                                <br>
+                                <input type="radio" name="gender" value="male"> Male
+                                <input type="radio" name="gender" value="female"> Female
+                                <br>
+                                <input type="checkbox"> Subscribe to newsletter
+                            </form>                    
+                        </div>
+                    </div>
+                    <br>
+                        <div class="indent-2">
+                            <strong>💡 Key Features:</strong>
+                            <ul class="list-style-none-indent-1"">
+                                <li>✔️<strong>action="submit.php"</strong> - Determines where form data is sent (e.g., a backend script).</li>
+                                <li>✔️<strong>method="post"</strong> - Ensures secure data transmission<br>
+                                    <em style="padding-left: 20px;">(alternative: "get" for URL-based submission).</em></li>
+                                <li>✔️<strong>required</strong> - Ensures fields must be filled before submission.</li>
+                            </ul>
+                        </div>
                 </section>
             </div>
         </div>
